@@ -37,7 +37,11 @@ export default function Footer() {
               Location<small>Al Karama, Dubai, UAE</small>
             </span>
           </div>
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/sabeer-ul-hasan-549299325/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <ArrowUpRight />
             <span>
               LinkedIn<small>Connect with me</small>

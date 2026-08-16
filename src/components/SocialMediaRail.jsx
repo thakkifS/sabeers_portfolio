@@ -30,9 +30,18 @@ function BrandIcon({ brand }) {
 }
 
 const socialLinks = [
-  { label: "LinkedIn", href: "https://www.linkedin.com" },
-  { label: "Instagram", href: "https://www.instagram.com" },
-  { label: "Facebook", href: "https://www.facebook.com" },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/sabeer-ul-hasan-549299325/",
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/sabeer_ul_hasan?igsh=MWczNm8xdHB1cmcydw%3D%3D&utm_source=qr",
+  },
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/share/1Cu4YTHTRS/?mibextid=wwXIfr",
+  },
   { label: "YouTube", href: "https://www.youtube.com" },
   { label: "Email", href: "mailto:sabeerh2002@gmail.com", icon: Mail },
 ];
