@@ -6,7 +6,7 @@ export default function Education() {
     <section className="education section">
       <div className="shell edu-grid">
         <motion.div {...reveal}>
-          <p className="section-label light">04 / EDUCATION</p>
+          <p className="section-label light">05 / EDUCATION</p>
           <h2>
             Always
             <br />
