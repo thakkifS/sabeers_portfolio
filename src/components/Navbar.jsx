@@ -1,12 +1,21 @@
 import { useState } from "react";
 import { ArrowUpRight, Download, Menu, X } from "lucide-react";
 import { navigation } from "../data/portfolio";
+import sabeerLogo from "../images/Sabeer_Logo.jpeg";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <nav className="nav shell">
       <a className="logo" href="#top">
-        SH<span>.</span>
+        <span className="logo-short">
+          SH<span>.</span>
+        </span>
+        <span className="logo-full">Sabeerul Hasan</span>
+        <img
+          className="phone-logo"
+          src={sabeerLogo}
+          alt="Sabeerul Hasan logo"
+        />
       </a>
       <div className="navlinks">
         {navigation.map((n) => (
