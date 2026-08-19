@@ -42,7 +42,10 @@ const socialLinks = [
     label: "Facebook",
     href: "https://www.facebook.com/share/1Cu4YTHTRS/?mibextid=wwXIfr",
   },
-  { label: "YouTube", href: "https://www.youtube.com" },
+  {
+    label: "YouTube",
+    href: "https://youtube.com/@memeslover6341?si=Qp14FdNl-pDnGAn0",
+  },
   { label: "Email", href: "mailto:sabeerh2002@gmail.com", icon: Mail },
 ];
 

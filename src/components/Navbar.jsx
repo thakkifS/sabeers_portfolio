@@ -25,7 +25,12 @@ export default function Navbar() {
         ))}
       </div>
       <div className="nav-actions">
-        <a className="nav-download" href="/Sabeerul-Hasan-CV.pdf" download>
+        <a
+          className="nav-download"
+          href="https://drive.google.com/file/d/1-uhnHPjthkiE-H_dxJHvHZnMI_7bi0sv/view?usp=drivesdk"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Download size={15} /> Download CV
         </a>
         <a className="nav-cta" href="mailto:sabeerh2002@gmail.com">

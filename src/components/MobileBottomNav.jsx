@@ -54,8 +54,9 @@ export default function MobileBottomNav() {
       ))}
       <a
         className="cv-download"
-        href="/Sabeerul-Hasan-CV.pdf"
-        download
+        href="https://drive.google.com/file/d/1-uhnHPjthkiE-H_dxJHvHZnMI_7bi0sv/view?usp=drivesdk"
+        target="_blank"
+        rel="noreferrer"
         aria-label="Download CV"
       >
         <Download size={19} />
